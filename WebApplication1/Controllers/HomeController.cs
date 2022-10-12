@@ -9,6 +9,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
+    // : Controller ile extends ediyoruz!
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -20,18 +21,30 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            string data = "Hello From Controller Data";
+            ViewBag.Message = data;
+            return View("Index");
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
+        public IActionResult Privacy(){
+            ViewResult result=View();
+            return result;
         }
 
         public IActionResult Contact()
         {
             int number = 25;
             return View(number);
+        }
+
+        public IActionResult browse()
+        {
+            return View();
+        }
+
+        public IActionResult details()
+        {
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

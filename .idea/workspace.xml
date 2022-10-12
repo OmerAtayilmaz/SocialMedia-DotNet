@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36a5fdc-f1d4-4a49-b1fe-50379a40676d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/Home/Contact.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/template/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/todo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665571041711</updated>
       <workItem from="1665571043182" duration="50000" />
+      <workItem from="1665576374301" duration="7000" />
     </task>
     <servers />
   </component>

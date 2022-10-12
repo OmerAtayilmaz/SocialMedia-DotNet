@@ -9,13 +9,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d79a783b-2c6b-401c-a6bc-0c3e3056a7e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/Home/Contact.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Controllers/MovieController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Core/Movie,/MovieDao.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Core/Movie,/MovieService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Models/Movie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/Home/Browse.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/Home/details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/Home/details.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/movie/MovieDetail.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1/Views/movie/Movies.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/WebApplication1.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/template/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/todo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/wwwroot/js/site.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +100,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665559580642</updated>
       <workItem from="1665559588521" duration="2385000" />
-      <workItem from="1665571179912" duration="2057000" />
+      <workItem from="1665571179912" duration="2308000" />
+      <workItem from="1665576884106" duration="10143000" />
     </task>
     <servers />
   </component>

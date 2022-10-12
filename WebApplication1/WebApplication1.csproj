@@ -19,4 +19,16 @@
       </Compile>
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\css\site.css" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Views\Category" />
+    </ItemGroup>
+
 </Project>
