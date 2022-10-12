@@ -1,0 +1,10 @@
+TO-DO
+[] -> Template Yollarını/Routes Belirle (Route Management)
+    []-> Get method
+    []-> Post Method
+    []-> Prefix method
+[] -> Logicleri Controllera ayır (Defining Controller)
+[] -> View katmanını aktifleştir (View Strucutre & Tempalte Engine)
+[] -> Proje Mimarisi ile ilgili Not Çıkar 
+[] -> DAO & Service & Dto & Controller Katmanlarını Ata (Design Patterns)
+[] -> 

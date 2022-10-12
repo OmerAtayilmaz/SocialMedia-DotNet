@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="todo.txt">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>todo.txt.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="todo.txt.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>todo.txt</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>
