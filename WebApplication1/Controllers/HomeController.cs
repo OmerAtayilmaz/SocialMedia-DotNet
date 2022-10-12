@@ -28,6 +28,12 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        public IActionResult Contact()
+        {
+            int number = 25;
+            return View(number);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

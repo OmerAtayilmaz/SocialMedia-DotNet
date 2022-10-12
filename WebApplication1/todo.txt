@@ -1,10 +1,34 @@
-TO-DO
+TO-DO - .NET CORE MVC  - 
 [] -> Template Yollarını/Routes Belirle (Route Management)
     []-> Get method
     []-> Post Method
     []-> Prefix method
-[] -> Logicleri Controllera ayır (Defining Controller)
-[] -> View katmanını aktifleştir (View Strucutre & Tempalte Engine)
+[COMPLETED] -> Logicleri Controllera ayır (Defining Controller)
+[COMPLETED] -> View katmanını aktifleştir (View Strucutre & Tempalte Engine),
+    [] -> View katmanında if
+    [] -> View katmanında foreach
+    [COMPLETED] -> View katmanında farklı sayfaya yonlendirme
+    [] -> View katmanında farklı parametreli sayfaya yönlendirme
+    
 [] -> Proje Mimarisi ile ilgili Not Çıkar 
 [] -> DAO & Service & Dto & Controller Katmanlarını Ata (Design Patterns)
 [] -> 
+
+
+NOTLARIM
+ASP.NET CORE MVC
+
+***ASP.NET*** bir programlama dili değil, web yazılımı geliştirme mimarisidir.
+
+RAZOR TEMPLATE ENGINE KULLANILIR
+
+***ASP.NET Core***
+-> ASP.NET'in halefidir.
+-> Microsoft tarafından geliştirilen ücretsiz ve açık kaynak web geliştirme mimarisidir
+-> Tüm ASP altyapısı yeniden tasarlanmıştır.
+
+**** ASP.NET Core vs ASP.NET Farkı ****
+performance: ASP.NET CORE > ASP.NET
+ASP.NET CORE CROSS PLATFORMDUR
+ASP.NET CORE MODULE YAPIDADIR
+
