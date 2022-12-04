@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    List<Post> postList =(List<Post>)ViewData["postList"];
+    List<User> userList = (List<User>)ViewData["userList"];
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            @foreach(Post p in postList){
+                <div class="card mb-2">
+                    <div class="card-header">
+                        <h6>@userList.Find(item=>item.Id==p.UserId).Name</h6>
+                    </div>
+                    <div class="card-body">
+                        <h6>@p.Title</h6>
+                        <p>@p.Body</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-primary">Like it!</a>
+                        <a href="#" class="btn btn-outline-primary">Comment</a>
+                    </div>
+                </div>
+            }
+            <div class="card">
+                <div class="card-header">
+                    <h6>Ahmet</h6>
+                </div>
+                <div class="card-body">
+                    <span>Awesome day huh?!</span>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-outline-primary">Like it!</a>
+                    <a href="#" class="btn btn-outline-primary">Comment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

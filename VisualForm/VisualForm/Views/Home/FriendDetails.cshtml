@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Friends";
+    User user =(User)ViewData["userDetail"];
+
+}
+
+
+<div class="container">
+    <div class="row">
+     <table class="table table-dark table-hover">
+         <tr>
+             <th>Id</th>
+             <td>@user.Id</td>
+         </tr>
+         <tr>
+             <th>Username</th>
+             <td>@user.Username</td>
+         </tr>
+         <tr>
+             <th>Name</th>
+             <td>@user.Name</td>
+         </tr>
+     </table>
+    </div>
+</div>

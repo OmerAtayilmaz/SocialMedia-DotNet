@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Friends";
+    List<User> userList =(List<User>)ViewData["userList"];
+
+}
+
+
+<div class="container">
+    <div class="row">
+        @foreach(User u in userList){
+        <div class="col-md-3 mt-3">
+            <div class="card">
+                <img src="~/images/profile.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@u.Username</h5>
+                    <p class="card-text">Hi, My Name is @u.Name</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary">Add Friend</button>
+                    <a asp-controller="Home" asp-action="FriendDetail" asp-route-id="@u.Id" class="btn btn-outline-primary">Details</a>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>
